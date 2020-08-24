@@ -33,17 +33,23 @@ Training occurs over 30 epochs using a stochastic gradient descent optimizer wit
 
 ## Results
 Good agreement is found between the temperature predicted by the network and the temperature set during the simulations (both given in terms of <img src="https://render.githubusercontent.com/render/math?math=T/T_C">, where <img src="https://render.githubusercontent.com/render/math?math=T_C=2.269185">). </br>A spearman correlation coefficient of 0.9711 is found between the two quantities, and from the image below it can be see that there is a higher correlation for high T configurations whilst there is higher error in low end of the spectrum. </br>
+
 ![alt text](images/correlation.png "Correlation Plot")</br>
+
 At lower temperature there is less information contained in the input matrix (as the system stabilises in an almost complete magnetisation state), so the network can only provide a rough estimate of the temperature (from the above plot it can be seen that the predicted temperature is at an average of 0.2).
 </br>
 </br>
 
 The images below show some of the different configurations of the Ising model at various temperatures:
 </br>
-* Low Temperature:
+
+* Low Temperature:</br>
 ![alt text](images/0_27.png "Low Temperature")</br>
 </br>
 * Close-to-critical Temperature:
+</br>
 ![alt text](images/1_22.png "Critical Temperature")</br>
+
 * High Temperature:
+</br>
 ![alt text](images/2_25.png "High Temperature")</br>
