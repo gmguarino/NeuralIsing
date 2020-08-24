@@ -44,12 +44,15 @@ The images below show some of the different configurations of the Ising model at
 </br>
 
 * Low Temperature:</br>
-![alt text](images/0_27.png "Low Temperature")</br>
+![alt text](images/0_27.png "Low Temperature")
 </br>
+
 * Close-to-critical Temperature:
 </br>
+
 ![alt text](images/1_22.png "Critical Temperature")</br>
 
 * High Temperature:
 </br>
+
 ![alt text](images/2_25.png "High Temperature")</br>
